@@ -1,0 +1,70 @@
+<svg width="460" height="235" viewBox="0 0 460 235" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title { font: 700 17px 'Segoe UI', Ubuntu, Sans-Serif; fill: #D1C4E9; }
+    .subtitle { font: 400 11px 'Segoe UI', Ubuntu, Sans-Serif; fill: #B39DDB; }
+    .lang-name { font: 600 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #FFFFFF; }
+    .lang-pct { font: 700 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #D1C4E9; }
+    .lang-desc { font: 400 10.5px 'Segoe UI', Ubuntu, Sans-Serif; fill: #B39DDB; }
+  </style>
+
+  <rect x="0" y="0" width="460" height="235" rx="10" fill="#1e1949" />
+  <rect x="1" y="1" width="458" height="233" rx="9" stroke="#B39DDB" stroke-opacity="0.25" stroke-width="1"/>
+
+  <text x="24" y="30" class="title">🚀 Most Used Languages &amp; Core Stacks</text>
+  <text x="24" y="47" class="subtitle">Across 35+ Production ERPs, AI Pipelines &amp; Web Ecosystems</text>
+
+  <!-- Multi-segment progress bar (width = 412) -->
+  <mask id="bar-mask">
+    <rect x="24" y="60" width="412" height="10" rx="5" fill="white" />
+  </mask>
+  <g mask="url(#bar-mask)">
+    <!-- TypeScript / Next.js / React: 34.5% -> 142px -->
+    <rect x="24" y="60" width="142" height="10" fill="#3178C6" />
+    <!-- Python / AI & FastAPI: 24.0% -> 99px -->
+    <rect x="166" y="60" width="99" height="10" fill="#FFD43B" />
+    <!-- PHP / ERP & WP Plugins: 16.5% -> 68px -->
+    <rect x="265" y="60" width="68" height="10" fill="#8892BF" />
+    <!-- JavaScript / Node / Astro / 3D: 12.0% -> 49px -->
+    <rect x="333" y="60" width="49" height="10" fill="#F7DF1E" />
+    <!-- SQL / Prisma / DBs: 7.5% -> 31px -->
+    <rect x="382" y="60" width="31" height="10" fill="#00D1B2" />
+    <!-- Java & C++ / Spring & Android: 5.5% -> 23px -->
+    <rect x="413" y="60" width="23" height="10" fill="#ED8B00" />
+  </g>
+
+  <!-- Row 1 -->
+  <g transform="translate(24, 90)">
+    <circle cx="6" cy="6" r="5.5" fill="#3178C6" />
+    <text x="18" y="10" class="lang-name">TypeScript &amp; Next.js <tspan class="lang-pct">34.5%</tspan></text>
+    <text x="18" y="24" class="lang-desc">React 19, NestJS, Astro 5, Prisma</text>
+  </g>
+  <g transform="translate(240, 90)">
+    <circle cx="6" cy="6" r="5.5" fill="#FFD43B" />
+    <text x="18" y="10" class="lang-name">Python &amp; AI Stack <tspan class="lang-pct">24.0%</tspan></text>
+    <text x="18" y="24" class="lang-desc">FastAPI, PyTorch, Demucs, Scrapers</text>
+  </g>
+
+  <!-- Row 2 -->
+  <g transform="translate(24, 138)">
+    <circle cx="6" cy="6" r="5.5" fill="#8892BF" />
+    <text x="18" y="10" class="lang-name">PHP &amp; Enterprise <tspan class="lang-pct">16.5%</tspan></text>
+    <text x="18" y="24" class="lang-desc">Raccoon ERP, SIAT QR, WP/Woo Plugins</text>
+  </g>
+  <g transform="translate(240, 138)">
+    <circle cx="6" cy="6" r="5.5" fill="#F7DF1E" />
+    <text x="18" y="10" class="lang-name">JavaScript &amp; 3D Web <tspan class="lang-pct">12.0%</tspan></text>
+    <text x="18" y="24" class="lang-desc">Node.js, Three.js, GSAP 3, Remotion</text>
+  </g>
+
+  <!-- Row 3 -->
+  <g transform="translate(24, 186)">
+    <circle cx="6" cy="6" r="5.5" fill="#00D1B2" />
+    <text x="18" y="10" class="lang-name">SQL &amp; Data Engines <tspan class="lang-pct">7.5%</tspan></text>
+    <text x="18" y="24" class="lang-desc">PostgreSQL, MySQL, MariaDB, SQLite</text>
+  </g>
+  <g transform="translate(240, 186)">
+    <circle cx="6" cy="6" r="5.5" fill="#ED8B00" />
+    <text x="18" y="10" class="lang-name">Java, C++ &amp; Mobile <tspan class="lang-pct">5.5%</tspan></text>
+    <text x="18" y="24" class="lang-desc">Spring Boot 3, Capacitor, Android SDK</text>
+  </g>
+</svg>
